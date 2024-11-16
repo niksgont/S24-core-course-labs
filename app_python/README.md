@@ -12,6 +12,6 @@ This web application displays the current time in Moscow. It is built using Pyth
 - Flask
 
 ## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-repo/web-app.git
+1. Run the app:
+    python app_python/app.py
+   

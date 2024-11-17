@@ -28,3 +28,14 @@ docker run -p 5000:5000 flask-moscow-time
 Run the unit tests using the following command:
 ```bash
 python -m unittest test_app.py
+
+## CI Workflow
+
+### Overview
+This project uses GitHub Actions for continuous integration.
+
+### CI Steps
+1. **Dependencies**: Installs required Python packages.
+2. **Linter**: Checks code quality using `flake8`.
+3. **Unit Tests**: Runs automated tests using `unittest`.
+4. **Docker**: Logs into Docker Hub, builds the image, and pushes it to the repository.

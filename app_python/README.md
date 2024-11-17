@@ -14,4 +14,12 @@ This web application displays the current time in Moscow. It is built using Pyth
 ## Installation
 1. Run the app:
     python app_python/app.py
-   
+
+## Docker Instructions
+
+### Build the Image
+docker pull niksgont/flask-moscow-time:latest
+### Pull from Docker Hub
+docker build -t flask-moscow-time .
+### Run
+docker run -p 5000:5000 flask-moscow-time

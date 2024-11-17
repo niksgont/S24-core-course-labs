@@ -13,3 +13,13 @@ I chose **Flask** because it is a lightweight and beginner-friendly web framewor
 - Manual testing in the browser confirmed the correct Moscow time display.
 - Debugging enabled during development to catch errors early.
 
+# Unit Testing Best Practices
+
+## Best Practices Applied
+- Focused on testing critical functionalities.
+- Used `unittest` for its simplicity and integration with CI tools.
+- Ensured tests are isolated and independent.
+- Verified both successful and edge cases.
+
+## Unit Tests Summary
+- Created tests for `home()` function to check if it outputs a valid time string.

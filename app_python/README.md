@@ -23,3 +23,8 @@ docker pull niksgont/flask-moscow-time:latest
 docker build -t flask-moscow-time .
 ### Run
 docker run -p 5000:5000 flask-moscow-time
+
+## Unit Tests
+Run the unit tests using the following command:
+```bash
+python -m unittest test_app.py

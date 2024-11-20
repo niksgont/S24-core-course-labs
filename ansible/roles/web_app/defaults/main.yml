@@ -1,0 +1,5 @@
+app_name: "my_web_app"
+docker_image: "niksgont/my_web_app:latest"
+container_name: "web_app_container"
+container_port: 5000
+host_port: 5000

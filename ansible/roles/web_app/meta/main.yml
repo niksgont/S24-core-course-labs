@@ -1,0 +1,8 @@
+galaxy_info:
+  author: your_name
+  description: Ansible role to deploy the web application Docker image.
+  license: MIT
+  platforms:
+    - name: Ubuntu
+      versions:
+        - all

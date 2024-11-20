@@ -1,0 +1,17 @@
+- name: Pull the latest Docker image
+  docker_image:
+    name: "{{ docker_image }}"
+    source: pull
+
+- name: Stop and remove any existing container
+  docker_container:
+    name: "{{ container_name }}"
+    state: absent
+
+- name: Deploy the new container
+  docker_container:
+    name: "{{ container_name }}"
+    image: "{{ docker_image }}"
+    ports:
+      - "{{ host_port }}:{{ container_port }}"
+    state: started

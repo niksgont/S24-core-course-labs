@@ -1,0 +1,5 @@
+- name: Deploy Docker on Cloud VM
+  hosts: all
+  become: true
+  roles:
+    - docker

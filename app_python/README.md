@@ -7,6 +7,10 @@ This web application displays the current time in Moscow. It is built using Pyth
 - Displays the current time in Moscow.
 - Refresh the page to get the latest time.
 
+## Endpoints
+- `/` - Displays current Moscow time.
+- `/visits` - Displays and increments the access count.
+
 ## Requirements
 - Python 3.x
 - Flask
